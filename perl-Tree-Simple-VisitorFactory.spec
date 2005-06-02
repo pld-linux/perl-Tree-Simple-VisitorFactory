@@ -6,7 +6,7 @@
 %define	pdir	Tree
 %define	pnam	Simple-VisitorFactory
 Summary:	Tree::Simple::VisitorFactory - A factory object for dispensing Visitor objects
-#Summary(pl):	
+Summary(pl):	Tree::Simple::VisitorFactory - obiekt tworz±cy do rozdzielania obiektów Visitor
 Name:		perl-Tree-Simple-VisitorFactory
 Version:	0.05
 Release:	1
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	851763393fd1bcbe5bd09a93b5b52ecc
+URL:		http://search.cpan.org/dist/Tree-Simple-VisitorFactory/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -25,10 +26,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-#TODO
+Tree::Simple::VisitorFactory is a factory for dispensing
+Tree::Simple::Visitor::* objects.
 
-# %description -l pl
-# TODO
+%description -l pl
+Tree::Simple::VisitorFactory to obiekt tworz±cy do rozdzielania
+obiektów Tree::Simple::Visitor::*.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

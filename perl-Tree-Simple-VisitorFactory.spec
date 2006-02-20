@@ -8,13 +8,13 @@
 Summary:	Tree::Simple::VisitorFactory - A factory object for dispensing Visitor objects
 Summary(pl):	Tree::Simple::VisitorFactory - obiekt tworz±cy do rozdzielania obiektów Visitor
 Name:		perl-Tree-Simple-VisitorFactory
-Version:	0.05
+Version:	0.10
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	851763393fd1bcbe5bd09a93b5b52ecc
+# Source0-md5:	ff7803a452e7fb188c71048cc2f69f6e
 URL:		http://search.cpan.org/dist/Tree-Simple-VisitorFactory/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13

@@ -6,7 +6,7 @@
 %define	pdir	Tree
 %define	pnam	Simple-VisitorFactory
 Summary:	Tree::Simple::VisitorFactory - A factory object for dispensing Visitor objects
-Summary(pl.UTF-8):   Tree::Simple::VisitorFactory - obiekt tworzący do rozdzielania obiektów Visitor
+Summary(pl.UTF-8):	Tree::Simple::VisitorFactory - obiekt tworzący do rozdzielania obiektów Visitor
 Name:		perl-Tree-Simple-VisitorFactory
 Version:	0.10
 Release:	1
